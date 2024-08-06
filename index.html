@@ -17,17 +17,32 @@
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-            <a href="#home" class="w3-bar-item w3-button">
+            <a href="#home" class="w3-bar-item w3-button w3-hover-white">
                 <img src="source/LOGO.jpg" alt="Home" style="height: 30px;">
             </a>
 
             <!-- Float links to the right. Hide them on small screens -->
             <div class="w3-right w3-hide-small">
-                <a href="#about" class="w3-bar-item w3-button">Sobre Nosotros</a>
-                <a href="#acueducto" class="w3-bar-item w3-button">Torre Panorama Acueducto</a>
-                <a href="#terranova" class="w3-bar-item w3-button">Terranova</a>
+                <a href="#acueducto" class="w3-bar-item w3-button w3-hover-white">Torre Panorama Acueducto</a>
+                <a href="#terranova" class="w3-bar-item w3-button w3-hover-white">Terranova</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hover-white">Contacto</a>
             </div>
+            <!-- Float menu to the right. Hide them on medium and large screens -->
+            <div class="w3-sidebar w3-bar-block w3-white w3-display-right w3-animate-right 
+                w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+                <button class="w3-bar-item w3-button w3-large"
+                onclick="w3_close()">Close &times;</button>
+                <a href="#acueducto" class="w3-bar-item w3-button w3-hover-white">Torre Panorama Acueducto</a>
+                <a href="#terranova" class="w3-bar-item w3-button w3-hover-white">Terranova</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hover-white">Contacto</a>
+              </div>
+              
+              <div>
+                <button class="w3-button w3-white w3-xlarge w3-display-topright w3-hide-medium 
+                    w3-hide-large w3-hover-white" onclick="w3_open()">&#9776;</button>
+              </div>
         </div>
+        <script src="js/sidebar.js"></script>
     </div>
 
     <!-- Header -->

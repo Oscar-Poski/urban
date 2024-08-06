@@ -18,6 +18,7 @@
         max-width: 1000px;
         position: relative;
         margin: auto;
+        padding-top: 75px;
     }
     
     /* Next & previous buttons */
