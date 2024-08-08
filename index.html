@@ -11,6 +11,8 @@
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+
 
 <body>
 
@@ -23,18 +25,30 @@
 
             <!-- Float links to the right. Hide them on small screens -->
             <div class="w3-right w3-hide-small">
-                <a href="#acueducto" class="w3-bar-item w3-button w3-hover-black">Torre Panorama Acueducto</a>
-                <a href="#terranova" class="w3-bar-item w3-button w3-hover-black">Terranova</a>
-                <a href="#about" class="w3-bar-item w3-button w3-hover-black">Contacto</a>
+                <a href="#acueducto" class="w3-bar-item w3-button w3-hover-black">
+                    <p class="w3-alata-small"> Torre Panorama Acueducto </p>
+                </a>
+                <a href="#terranova" class="w3-bar-item w3-button w3-hover-black">
+                    <p class="w3-alata-small"> Terranova </p>
+                </a>
+                <a href="#about" class="w3-bar-item w3-button w3-hover-black">
+                    <p class="w3-alata-small"> Contacto </p>
+                </a>
             </div>
             <!-- Float menu to the right. Hide them on medium and large screens -->
             <div class="w3-sidebar w3-bar-block w3-black w3-display-right w3-animate-right 
                 w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
                 <button class="w3-bar-item w3-button w3-large"
                 onclick="w3_close()">Close &times;</button>
-                <a href="#acueducto" class="w3-bar-item w3-button w3-hover-black">Torre Panorama Acueducto</a>
-                <a href="#terranova" class="w3-bar-item w3-button w3-hover-black">Terranova</a>
-                <a href="#about" class="w3-bar-item w3-button w3-hover-black">Contacto</a>
+                <a href="#acueducto" class="w3-bar-item w3-button w3-hover-black">
+                    <p class="w3-alata-small"> Torre Panorama Acueducto </p>
+                </a>
+                <a href="#terranova" class="w3-bar-item w3-button w3-hover-black">
+                    <p class="w3-alata-small"> Terranova </p>
+                </a>
+                <a href="#about" class="w3-bar-item w3-button w3-hover-black">
+                    <p class="w3-alata-small"> Contacto </p>
+                </a>
               </div>
               
               <div>
@@ -47,8 +61,24 @@
 
     <!-- Header -->
     <header>
-        <div class="slideshow-container">
+        <div class="w3-card-4 slideshow-container">
 
+            <div class="mySlides fade">
+            <img src="source/4.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+            <img src="source/5.jpg" style="width:100%">
+            </div>
+            <!---
+            <div class="mySlides fade">
+            <img src="source/3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+            <img src="source/2.jpg" style="width:100%">
+            </div>
+            
             <div class="mySlides fade">
             <img src="source/1.jpg" style="width:100%">
             </div>
@@ -56,24 +86,22 @@
             <div class="mySlides fade">
             <img src="source/2.jpg" style="width:100%">
             </div>
-            
-            <div class="mySlides fade">
-            <img src="source/3.jpg" style="width:100%">
-            </div>
-            
+        -->
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
             
-            </div>
-            <br>
-            
-            <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
-            
+            </div>      
             <script src="js/header.js"></script>
+            
+            <div class="w3-row-padding">
+                <div class="w3-col s4"></div>
+
+                <div class="w3-container">
+                    <div class="w3-card-4">
+                        <p class="w3-alata-large w3-center"> ESPACIOS DE TRABAJO DISEÑADOS PARA TU ÉXITO. </p>
+                    </div>
+                </div>
+            </div>
     </header>
 
 </body>
