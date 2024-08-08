@@ -28,7 +28,7 @@
         top: 50%;
         width: auto;
         padding: 16px;
-        margin-top: -22px;
+        margin-top: 15px;
         color: white;
         font-weight: bold;
         font-size: 18px;
@@ -78,10 +78,12 @@
 /* Fonts */
 .w3-alata-large {
     font-family: "Alata", sans-serif;
-    font-size: 40px;
+    font-size: 5vw;
+    font-weight: 900;
+    font-style: italic;
   }
 
   .w3-alata-small {
     font-family: "Alata", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
   }
