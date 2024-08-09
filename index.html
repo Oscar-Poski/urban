@@ -1,19 +1,24 @@
 <!DOCTYPE html>
-<html lang="es">
-<meta charset="UTF-8">
-<title>URBAN workplace</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<head></head>
+    <html lang="es">
+    <meta charset="UTF-8">
+    <title>URBAN workplace</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<meta name="Keywords" content="coworwking, oficinas, oficina, espacio de trabajo, renta">
-<meta name="Description" content="Renta de oficinas de lujo en Guadalajara y Zapopan">
+    <meta name="Keywords" content="coworwking, oficinas, oficina, espacio de trabajo, renta">
+    <meta name="Description" content="Renta de oficinas de lujo en Guadalajara y Zapopan">
 
-<link rel="icon" href="source/favicon.ico">
+    <link rel="icon" href="source/favicon.ico">
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/main.css">
 
+    <!-- Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap">
 
+    <script src="https://kit.fontawesome.com/79ed954c2b.js" crossorigin="anonymous"></script>
+</head>
 <body>
 
     <!-- Navbar (sit on top) -->
@@ -23,8 +28,8 @@
                 <img src="source/LOGO.jpg" alt="Home" style="height: 50px;">
             </a>
 
-            <!-- Float links to the right. Hide them on small screens -->
-            <div class="w3-right w3-hide-small">
+            <!-- Float links to the right. Hide them on small and medium screens 
+            <div class="w3-right">
                 <a href="#acueducto" class="w3-bar-item w3-button w3-hover-black">
                     <p class="w3-alata-small"> Torre Panorama Acueducto </p>
                 </a>
@@ -34,10 +39,10 @@
                 <a href="#about" class="w3-bar-item w3-button w3-hover-black">
                     <p class="w3-alata-small"> Contacto </p>
                 </a>
-            </div>
-            <!-- Float menu to the right. Hide them on medium and large screens -->
-            <div class="w3-sidebar w3-bar-block w3-black w3-display-right w3-animate-right 
-                w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+            </div> -->
+            <!-- Float menu to the right. Hide them on large screens -->
+            <div class="w3-sidebar w3-bar-block w3-black w3-display-right w3-animate-right" 
+                    style="width: 100%; display:none" id="mySidebar">
                 <button class="w3-bar-item w3-button w3-large"
                 onclick="w3_close()">Close &times;</button>
                 <a href="#acueducto" class="w3-bar-item w3-button w3-hover-black">
@@ -49,11 +54,33 @@
                 <a href="#about" class="w3-bar-item w3-button w3-hover-black">
                     <p class="w3-alata-small"> Contacto </p>
                 </a>
+
+                <p class="w3-alata-small" style="margin-left: 15px;"> 
+                    <i class="fa-solid fa-phone"></i> +52 332 656 1916 <br>
+                    <i class="fa-solid fa-phone"></i> +52 331 922 5975 <br> 
+                    <i class="fa-solid fa-envelope"></i> administracion@urbanworkplace.com.mx <br> 
+                    <i class="fa-brands fa-whatsapp"></i> +52 331 922 5975
+                </p>
+
+                
+
+                <a href="#home" class="w3-bar-item w3-button w3-hover-black">
+                    <img src="source/LOGO.jpg" alt="Home" style="height: 50px;">
+                </a>
+
+                <a href="https://www.facebook.com/urbanworkplace.mx/" class="w3-button w3-hover-black" style="margin-left: 25px;">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com/urbanworkplace/" class="w3-button w3-hover-black">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
               </div>
               
               <div>
-                <button class="w3-button w3-black w3-xxlarge w3-display-right w3-hide-medium 
-                    w3-hide-large w3-hover-black" onclick="w3_open()">&#9776;</button>
+                <button class="w3-button w3-black w3-xxlarge w3-display-right
+                            w3-hover-black" onclick="w3_open()">&#9776;</button>
               </div>
         </div>
         <script src="js/sidebar.js"></script>
@@ -93,39 +120,63 @@
             </div>      
             <script src="js/header.js"></script>
             
-            <div class="w3-row-padding">
-                <div class="w3-col s4"></div>
-
-                <div class="w3-container">                  
-                    <p class="w3-alata-large w3-center"> ESPACIOS DE TRABAJO DISEÑADOS PARA TU ÉXITO. </p>                  
-                </div>
+            
+            <div class="w3-container">                  
+                <p class="w3-antonsc w3-left-align"> Espacios de trabajo <br> diseñados para tu éxito. <br>    &#9600; </p>                  
             </div>
+            
     </header>
 
     <div class="w3-row-padding w3-margin-top">
 
         <div class="w3-col s6">
-        <div class="w3-card w3-round-xlarge">
-            <img src="source/terranova.jpg" class="w3-round-xlarge" style="width:100%">
-            <div class="w3-container">
-                <h4>Terranova</h4>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Terranova</p>
+                <img src="source/terranova.jpg" class="w3-round-xlarge" style="width:100%"> 
             </div>
-        </div>
-        <div class="w3-card w3-margin-top">
-            <img src="source/2.jpg" style="width:100%">
-            <div class="w3-container">
-                <h4 style="font-size:7vw">5 Terre</h4>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Recepción</p> 
             </div>
-        </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Oficinas Privadas</p> 
+            </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Salas de Juntas</p> 
+            </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Salas de Espera</p> 
+            </div>
         </div>
     
+
+
+
         <div class="w3-col s6">
-        <div class="w3-card">
-            <img src="source/tpa.jpg" style="width:100%">
-            <div class="w3-container">
-                <h4>Torre Panorama Acueducto</h4>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Torre Panorama Acueducto</p>
+                <img src="source/tpa.jpg" class="w3-round-xlarge" style="width:100%">
             </div>
-        </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Recepción</p> 
+            </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Oficinas Privadas</p> 
+            </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Salas de Juntas</p> 
+            </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Salas de Espera</p> 
+            </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Comedor</p> 
+            </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Rooftop</p> 
+            </div>
+            <div class="w3-card w3-round-xlarge">
+                <p class="w3-alata-small w3-center" style="font-size: 20px;">Helipuerto</p> 
+            </div>
         </div>
     </div>
     

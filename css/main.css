@@ -16,6 +16,7 @@
     /* Slideshow container */
     .slideshow-container {
         width: 97%;
+        max-width: 1000px;
         position: relative;
         margin: auto;
         padding-top: 100px;
@@ -86,4 +87,12 @@
   .w3-alata-small {
     font-family: "Alata", sans-serif;
     font-size: 15px;
+    letter-spacing: 0.01em;
+  }
+
+  .w3-antonsc {
+    font-family: "Anton SC", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    font-style: normal;
   }
