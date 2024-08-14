@@ -50,21 +50,19 @@
                     style="width: 100%; display:none" id="mySidebar">
                 <button class="w3-bar-item w3-button w3-large"
                 onclick="w3_close()">Close &times;</button>
-                <a href="#acueducto" class="w3-bar-item w3-button w3-hover-black">
-                    <p class="w3-alata-small"> Torre Panorama Acueducto </p>
+
+                <a href="#ubi" class="w3-bar-item w3-button w3-hover-black" onclick="w3_close()">
+                    <p class="w3-alata-small"> Ubicación </p>
                 </a>
-                <a href="#terranova" class="w3-bar-item w3-button w3-hover-black">
-                    <p class="w3-alata-small"> Terranova </p>
-                </a>
-                <a href="#about" class="w3-bar-item w3-button w3-hover-black">
-                    <p class="w3-alata-small"> Contacto </p>
+                <a href="#serv" class="w3-bar-item w3-button w3-hover-black" onclick="w3_close()">
+                    <p class="w3-alata-small"> Servicios </p>
                 </a>
 
                 <p class="w3-alata-small" style="margin-left: 15px;"> 
+                    <i class="fa-solid fa-phone"></i> +52 331 922 5975 <br>
+                    <i class="fa-brands fa-whatsapp"></i> +52 331 922 5975<br>
                     <i class="fa-solid fa-phone"></i> +52 332 656 1916 <br>
-                    <i class="fa-solid fa-phone"></i> +52 331 922 5975 <br> 
-                    <i class="fa-solid fa-envelope"></i> administracion@urbanworkplace.com.mx <br> 
-                    <i class="fa-brands fa-whatsapp"></i> +52 331 922 5975
+                    <i class="fa-solid fa-envelope"></i> administracion@urbanworkplace.com.mx    
                 </p>
 
                 
@@ -93,7 +91,7 @@
 
     <!-- Header -->
     <header>
-        <div class="slideshow-container">
+        <div class="slideshow-container" id="home">
 
             <div class="mySlides fade">
             <img src="source/4.jpg" class="w3-round-xlarge" style="width:100%">
@@ -131,7 +129,7 @@
             </div>
             
     </header>
-    <div class="w3-container">
+    <div class="w3-container" id="ubi">
         <h2 class="w3-alata-large" style="font-size: 30px;">
             ¿Dónde está URBAN?
         </h2>
@@ -148,12 +146,18 @@
 
     <div class="w3-row-padding">
         <div class="w3-col s6">
-            <div class="w3-card w3-round-xlarge">
-                <img src="source/terranova.jpg" class="w3-round-xlarge" style="width:100%"> 
+            <div class="w3-card w3-round-xlarge w3-display-container">
+                <img src="source/terranova.jpg" class="w3-round-xlarge" style="width:100%">
+
+                <a href="https://maps.app.goo.gl/pDWyGZH38ih8ue6A8" class="w3-button w3-xlarge w3-hover-white w3-display-topright">
+                <i class="fa-solid fa-location-dot"></i>
+                </a> 
             </div>
+
             <p class="w3-alata-small w3-center" style="font-size: 12px;">
                 Av. Terranova 1455, Providencia, Guadalajara Jal. 44639
             </p>
+
             <div class="w3-card w3-round-xlarge">
                 <img src="source/1.jpg" class="w3-round-xlarge" style="width:100%">
                 <p class="w3-alata-small w3-center" style="font-size: 20px;">Recepción</p> 
@@ -171,9 +175,14 @@
     
 
         <div class="w3-col s6">
-            <div class="w3-card w3-round-xlarge">
+            <div class="w3-card w3-round-xlarge w3-display-container">
                 <img src="source/tpa.jpg" class="w3-round-xlarge" style="width:100%">
+
+                <a href="https://maps.app.goo.gl/HUEzmBqiN3S6CoxM6" class="w3-button w3-xlarge w3-hover-white w3-display-topright">
+                    <i class="fa-solid fa-location-dot"></i>
+                </a> 
             </div>
+
             <p class="w3-alata-small w3-center" style="font-size: 12px;">
                 Real de Acueducto 335, Real Acueducto, Zapopan Jal. 45116
             </p>
@@ -216,7 +225,7 @@
     </div>
 
     
-    <div class="w3-container w3-light-gray">
+    <div class="w3-container w3-light-gray" id="serv">
         <h2 class="w3-alata-large" style="font-size: 30px;">
             ¿Qué ofrecemos?
         </h2>
